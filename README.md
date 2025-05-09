@@ -42,6 +42,7 @@ Connect LookerStudio to bigquery, then the data can be visualized by using diver
 ## The workflow of this project
 
 This project utilizes airflow, GCP(big query, storage and VM instances), LookerStudio
+
 ![img.png](readme_fig/workflow.png)
 
 
