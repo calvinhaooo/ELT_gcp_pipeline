@@ -45,4 +45,17 @@ This project utilizes airflow, GCP(big query, storage and VM instances), LookerS
 ![img.png](readme_fig/workflow.png)
 
 
+### Workflow description
+Extract: Check for file existence in GCS.
+Load: Load raw CSV data into a BigQuery staging table.
+Transform:
+Create country-specific tables in the transform layer.
+Generate reporting views for each country with filtered insights.
+
+### Data Layers
+Staging Layer: Raw data from the CSV file.
+Transform Layer: Cleaned and transformed tables.
+Reporting Layer: Views optimized for analysis and reporting.
+
+
 
