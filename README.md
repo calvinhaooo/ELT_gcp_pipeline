@@ -1,6 +1,5 @@
 # gcp_projects
 
-
 ### How to set up airflow?
 
 #### Environment build up
@@ -26,15 +25,24 @@ You can see the dag in the UI.
 ![img.png](readme_fig/airflow_dag.png)
 
 
-#### ETL pipeline in airflow
+#### ELT pipeline in airflow
 
 Below is the pipeline graph:
+
 ![img.png](readme_fig/pipeline.png)
 
 
-### Presentation by using LookupStudio
+### Presentation by using LookerStudio
 
-Connect lookupstudio to bigquery, then the data can be visualized by using diverse plots. Below is the visualization of Japan health data.
+Connect LookerStudio to bigquery, then the data can be visualized by using diverse plots. Below is the visualization of Japan health data.
+
 ![img.png](readme_fig/Japan_health_data_visualization.png)
+
+
+## The workflow of this project
+
+This project utilizes airflow, GCP(big query, storage and VM instances), LookerStudio
+![img.png](readme_fig/workflow.png)
+
 
 
